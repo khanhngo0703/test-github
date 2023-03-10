@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="reservation.css">
+</head>
+
+<body>
+    <div id="main">
+        <div class="menu-left">
+            <div class="menu-left-header">
+                <h1>Main Menu</h1>
+            </div>
+            <hr>
+            <div class="menu-left-list">
+                <ul id="nav">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="#">Reservation</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="menu-right">
+            <form class="form-login">
+                <div class="menu-right-header">
+                    <h1>HOTEL Reservation Form</h1>
+                </div>
+                <hr>
+                <div class="menu-right-list-login">
+                    <div class="menu-right-name">
+                        <span>Name:</span>
+                        <input type="text" required>
+                    </div>
+
+                    <div class="menu-right-city">
+                        <span>Select City:</span>
+                        <select class="select-city">
+                            <option value="">Hà Nội</option>
+                            <option value="">Huế</option>
+                            <option value="">Hồ Chí Minh</option>
+                            <option value="">Đà Nẵng</option>
+                            <option value="">Đà Lạt</option>
+                            <option value="">Cần Thơ</option>
+                            <option value="">Vũng Tàu</option>
+                            <option value="">Quảng Ninh</option>
+                            <option value="">Hải Phòng</option>
+                            <option value="">Hải Dương</option>
+                        </select>
+                    </div>
+
+                    <div class="menu-right-arrival-date">
+                        <span>Arrival Date (MM/dd/yy):</span>
+                        <input type="text" pattern="\d{1,2}/\d{1,2}/\d{4}" required>
+                    </div>
+
+                    <div class="menu-right-departure-date">
+                        <span>Departure Date (MM/dd/yy):</span>
+                        <input type="text" pattern="\d{1,2}/\d{1,2}/\d{4}" required>
+                    </div>
+
+                    <div class="menu-right-room">
+                        <span>Number of Room(s):</span>
+                        <input type="number" required>
+                    </div>
+
+                    <div class="menu-right-person">
+                        <span>Number of Person(s):</span>
+                        <input type="number" required>
+                    </div>
+
+                    <div class="menu-right-button">
+                        <button type="submit">Submit</button>
+                        <button type="button">Clear Form</button>
+                        <button onclick="history.back()" type="button">Back</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+
+</html>

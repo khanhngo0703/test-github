@@ -1,0 +1,43 @@
+.menu-right-list-login {
+    margin-left: 66px;
+}
+
+.menu-right-name input {
+    margin-left: 150px;
+    margin-top: 16px;
+}
+
+.menu-right-city .select-city{
+    margin-left: 117px;
+    margin-top: 10px;
+}   
+
+.menu-right-arrival-date input {
+    margin-left: 23px;
+    margin-top: 10px;
+}
+
+.menu-right-departure-date input {
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.menu-right-room input {
+    margin-left: 57px;
+    margin-top: 10px;
+}
+
+.menu-right-person input {
+    margin-left: 52px;
+    margin-top: 10px;
+}
+
+.menu-right-button {
+    margin-top: 15px;
+    margin-left: -60px;
+}
+
+.menu-right-button button {
+    padding: 0 33px;
+    font-size: 20px;
+}

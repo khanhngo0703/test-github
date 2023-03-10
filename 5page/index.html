@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mysite.css">
+</head>
+
+<body>
+    <div id="main">
+        <div class="header">
+            <h2>User Registration</h2>
+        </div>
+
+        <div class="content">
+            <form class="login-page">
+                <div class="content-infor">
+                    <div class="content-id">
+                        <span>User ID:</span>
+                        <input type="text" id="ip-id" placeholder="Nhập ID" pattern="[a-zA-Z]{5,}" required>
+                    </div>
+
+                    <div class="content-password">
+                        <span>Password:</span>
+                        <input type="password" id="ip-password" placeholder="Nhập mật khẩu" pattern="[A-Za-z0-9]{8,}"
+                            required>
+                    </div>
+
+                    <div class="content-confirm-pass">
+                        <span>Confirm Password:</span>
+                        <input type="password" id="ip-confirm-password" placeholder="Nhập lại mật khẩu"
+                            pattern="[A-Za-z0-9]{8,}" required>
+                    </div>
+
+                    <div class="content-email">
+                        <span>Existing E-mail ID:</span>
+                        <input type="text" id="ip-email" pattern="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9]+\.[a-zA-Z0-9-.]+$"
+                            placeholder="Nhập Email" required>
+                    </div>
+
+                    <div class="content-confirm-email">
+                        <span>Confirm Existing E-mail ID:</span>
+                        <input type="text" id="ip-confirm-email" pattern="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9]+\.[a-zA-Z0-9-.]+$"
+                            placeholder="Nhập lại Email" required>
+                    </div>
+
+                    <div class="content-button">
+                        <button type="submit">Submit</button>
+                        <button onclick="resetFields()" type="button">Reset</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="validate.js"></script>
+</body>
+
+</html>

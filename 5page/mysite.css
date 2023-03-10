@@ -1,0 +1,78 @@
+.header {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+.content {
+    width: 60%;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    height: 260px;
+}
+
+.content-infor {
+    padding-top: 50px;
+    margin-left: 90px;
+}
+
+.content-id {
+    padding-bottom: 10px;
+}
+
+.content-id input {
+    margin-left: 150px;
+    font-size: 16px;
+    padding: 0 46px;
+    text-align: center;
+}
+
+.content-password {
+    padding-bottom: 10px;
+}
+
+.content-password input {
+    margin-left: 140px;
+    font-size: 16px;
+    padding: 0 46px;
+    text-align: center;
+}
+
+.content-confirm-pass {
+    padding-bottom: 10px;
+}
+
+.content-confirm-pass input {
+    margin-left: 82px;
+    font-size: 16px;
+    padding: 0 46px;
+    text-align: center;
+}
+
+.content-email {
+    padding-bottom: 10px;
+}
+
+.content-email input {
+    margin-left: 80px;
+    font-size: 16px;
+    padding: 0 46px;
+    text-align: center;
+}
+
+.content-confirm-email {
+    padding-bottom: 10px;
+}
+
+.content-confirm-email input {
+    margin-left: 21px;
+    font-size: 16px;
+    padding: 0 46px;
+    text-align: center;
+}
+
+.content-button {
+    margin-left: 360px;
+    margin-top: 10px;       
+}
